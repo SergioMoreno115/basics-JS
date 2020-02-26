@@ -6,8 +6,8 @@ const cadena = prompt('Introduzca una frase sin espacios');
 function getLetter() {
 
     //Variable donde almacenaremos el ramdom obtenido
-    let result = '';         
-    
+    let result = '';
+
     //longitud del ramdom
     const characters = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789';
 
@@ -35,7 +35,7 @@ function getLetter() {
 
 let letter = getLetter();
 
-console.log(letter);
+console.log("El caracter escogído es: " + letter);
 
 
 alert(cadena.includes(letter));

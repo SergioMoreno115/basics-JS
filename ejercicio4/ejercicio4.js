@@ -5,7 +5,7 @@ let laboralLife = retired - age;
 
 
 
-if (isNaN(age)) {
+if (isNaN(age) || (age < 1)) {
     alert('Introduzca un dato numérico');
 } else {
     if (age < retired) {
